@@ -1,0 +1,51 @@
+.centered {
+    align-content: center;
+    text-align: center;
+}
+
+body{
+    background-color: #0000000f;
+    overflow-x: hidden;
+}
+.danger-dark {
+  background-color: #000000d1;
+}
+.burger-king{
+  width: 25vh;
+}
+body::after {
+    content: "";
+    background: url("../img/35405598-tentacles-seamless-background.jpg");
+    opacity: 0.09;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+  ul {
+    list-style-image: url("../img/burger.png");
+  }
+  .no-decorations {
+    list-style-image: url("../img/crumbs.png");
+  }
+
+  .list-row {
+      position: relative;
+      top: -1rem;
+  }
+
+  .short-list {
+      height: 10%;
+  }
+  .full-width {
+    width: 100vw;
+  }
+  .headish {
+    background-color:#ff8a007a;
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+
+  }
